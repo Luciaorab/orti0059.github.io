@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my style css */
+
+html{
+    background-color: #aad4cf ;
+
+}
+body {
+    background-color: #d4e9e7;
+    width: 1025px;
+    height: 3000px;
+    margin: 0 auto;
+
+}
+.holder {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.h1 {
+	font-size: 64px;
+	position: absolute;
+	top: 66%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.lone-starfishpage {
+	padding-top: 2px;
+	font-size: 26px;
+}
+
+.nav {
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li:first-child {
+	border-right: 1px solid black;
+	padding: 5px;
+	margin: 125px;
+	margin-left: 123px;
+	padding-right: 131px;
+}
+nav ul li:nth-child(2) {
+	border-right: 1px solid black;
+	padding: 8px;
+	margin: 125px;
+	margin-left: -14px;
+	padding-right: 126px;
+}
+nav ul li:last-child {
+	margin: 0px;
+	margin-left: -22px;
+}
+
+.h2one {
+	font-size: 35px;
+	padding-top: 35px;
+	margin: 10px;
+}
+p {
+	font-size: 16px;
+	line-height: 1.6;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+
+#starfish {
+	float: left;
+	width: 250px;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 7px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.h2two {
+	font-size: 29px;
+	padding-top: 20px;
+	margin: 10px;
+}
+
+.factsaboutstarfish {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-top: 13px;
+	padding-left: 13px;
+}
+
+.contacttolearnmore {
+	font-size: 29px;
+	padding-top: 20px;
+	margin: 10px;
+	padding-bottom: 4px;
+}
+
+.contactform {
+	width: 982px;
+	height: 438px;
+	border: 2px solid black;
+	padding: 4px;
+	margin: 10px;
+	padding-top: 35px;
+	padding-left: 16px;
+}
+
+.yourtext {
+	font-size: 18px;
+}
+
+.name {
+	margin-top: 9px;
+	padding-top: 10px;
+	width: 965px;
+	margin-bottom: 20px;
+}
+
+.email {
+	margin-top: 9px;
+	padding-top: 10px;
+	width: 965px;
+	margin-bottom: 20px;
+}
+
+.message {
+	margin-top: 9px;
+	padding-top: 10px;
+	width: 965px;
+	height: 85px;
+	margin-bottom: 20px;
+}
+
+.header3 {
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+
+.radio {
+	font-size: 18px;
+}
+
+.submit-button {
+	font-size: 11px;
+	border: 1px solid black;
+	margin-top: 15px;
+	padding: 13px;
+}
+
+footer {
+	text-align: right;
+	padding-right: 31px;
+	padding-top: 13px;
+}
+
